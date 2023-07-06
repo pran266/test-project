@@ -29,7 +29,7 @@
 
 }
 .banner-img{
-    width: 300px;
+    width: 400px;
 }
 .banner-container{
     display: flex;
@@ -78,8 +78,31 @@
     font-size: bold;
 }
 .box{
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 280px;
     box-shadow: 4px 4px 16px gray ;
-
+ background-color: black;
+ 
+ text-align: center;
+ color: white;
+}
+.icon{
+    width: 100px;
+   
+    text-align: center;
+}
+.box-title{
+    padding: 10px;
+  font-style: italic;
+}
+.box-description{
+    padding: 8px;
+}
+.service-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    background-color: rgb(59, 57, 57);
+    height: 400px;
+   
 }
