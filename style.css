@@ -61,4 +61,25 @@
 .btn:hover{
     cursor: pointer;
 }
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+.about-title{
+    text-align: center;
+    padding-top: 20px;
+    text-shadow: 10px 10px 20px red;
 
+}
+.about{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: bold;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    box-shadow: 4px 4px 16px gray ;
+
+}
